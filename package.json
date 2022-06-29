@@ -1,0 +1,30 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A todo app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yetife/todo-app-backend.git"
+  },
+  "author": "yetife",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yetife/todo-app-backend/issues"
+  },
+  "homepage": "https://github.com/Yetife/todo-app-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "mongoose": "^6.4.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.18",
+    "uuid": "^8.3.2"
+  }
+}
